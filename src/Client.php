@@ -3,17 +3,14 @@
 namespace Mateodioev\Safone;
 
 use Mateodioev\Request\{Request, RequestResponse};
-use Mateodioev\Safone\Traits\{Acronym, Anime, Astronomy, Carbon};
+use Mateodioev\Safone\Traits\{Acronym, Anime, Astronomy, Carbon, ChatBot, Code, Currency, Search};
 use Mateodioev\Utils\Arrays;
 
 use function http_build_query;
 
 class Client
 {
-  use Acronym;
-  use Anime;
-  use Astronomy;
-  use Carbon;
+  use Acronym, Anime, Astronomy, Carbon, ChatBot, Code, Currency, Search;
 
   public const API_URL = 'https://api.safone.tech/';
 
