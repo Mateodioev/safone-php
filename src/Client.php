@@ -12,7 +12,7 @@ class Client
 {
   use Acronym, Anime, Astronomy, Carbon, ChatBot, Code, Currency, Search;
 
-  public const API_URL = 'https://api.safone.tech/';
+  public const API_URL = 'https://api.safone.me/';
 
   private static $instance;
   private Request $req;
