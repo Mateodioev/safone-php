@@ -1,4 +1,5 @@
 [Original repo](https://github.com/AsmSafone/SafoneAPI)
+Api dead
 
 ## Install
 ```bash
